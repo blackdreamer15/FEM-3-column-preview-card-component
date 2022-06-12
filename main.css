@@ -25,16 +25,30 @@ body {
 }
 
 main {
-    min-width: 300px;
-    width: 350px;
+    min-width: 375px;
+    width: 400px;
     margin: 0 auto;
-    background-color: ;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
+section {
+    height: 200px;
+}
 
+section#sedans {
+    background: var(--prim-orange);
+}
+
+section#suvs {
+    background: var(--dark-cyan);
+}
+
+section#luxury {
+    background: var(--darker-cyan);
+}
 
 
 
