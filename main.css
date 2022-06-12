@@ -1,0 +1,56 @@
+
+
+/*---COLORS---*/
+:root {
+    --trans-white: hsla(0, 0%, 100%, 0.75);
+    --lighter-gray: hsl(0, 0%, 95%);
+    --prim-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --darker-cyan: hsl(179, 100%, 13%);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+footer.attribution {
+    font-size: 13px;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+footer.attribution p {
+    line-height: 1.4;
+    color: var(--prim-soft-blue);
+    font-weight: 400;
+}
+
+footer.attribution p a {
+    text-decoration: none;
+    color: var(--prim-cyan);
+    transition: all .5s ease-in-out;
+}
+
+footer.attribution p a:hover {
+    font-weight: 600;
+    color: var(--myWhite);
+}
+*/
