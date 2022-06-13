@@ -17,29 +17,31 @@
 }
 
 body {
-    background-color: var(--lighter-gray);
-    color: var(--prim-white);
     font-size: 15px;
     font-family: ;
-    min-height: 100vh;
-}
-
-main {
-    min-width: 375px;
-    width: 400px;
-    margin: 0 auto;
+    background-color: var(--lighter-gray);
+    color: var(--prim-white);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0rem auto;
+    min-height: 100vh;
 }
 
-section {
-    height: 200px;
+main {
+    min-width: 200px;
+    margin: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 
 section#sedans {
     background: var(--prim-orange);
+    border-radius: 8px 8px 0 0;
 }
 
 section#suvs {
@@ -48,8 +50,44 @@ section#suvs {
 
 section#luxury {
     background: var(--darker-cyan);
+    border-radius: 0 0 8px 8px;
 }
 
+section img {
+    margin: 4rem 3rem 1rem;
+}
+
+section div.text {
+    margin: 2rem 3rem;
+    background: red;
+    padding: 10px;
+}
+section div.text h1 {
+    color: var(--lighter-gray);
+    margin-bottom: 1.8rem;
+}
+section div.text p {
+    color: var(--trans-white);
+}
+
+section button {
+    margin: 2rem 3rem 3rem;
+    background: white;
+    border-radius: 30px;
+    border: none;
+    padding: 18px 45px;
+    font-size: 15px;
+    cursor: pointer;
+}
+section#sedans > button {
+    color: var(--prim-orange);
+}
+section#suvs > button {
+    color: var(--dark-cyan);
+}
+section#luxury > button {
+    color: var(--darker-cyan);
+}
 
 
 
