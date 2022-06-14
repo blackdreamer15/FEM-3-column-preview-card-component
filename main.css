@@ -62,7 +62,6 @@ section img {
 
 section div.text {
     margin: 2rem 3rem;
-    background: red;
 }
 section div.text h1 {
     color: var(--lighter-gray);
@@ -99,7 +98,37 @@ section#luxury > button {
 }
 
 
+@media screen and (min-width: 1024px) {
+    main {
+        min-width: 200px;
+        margin: 0 3rem;
+        flex-direction: row;
+    }
+    section {
+        min-width: 200px;
+        max-width: 400px;
+        height: 80vh;
+    }
+    section#sedans {
+        border-radius: 8px 0 0 8px;
+    }
+    section#luxury {
+        border-radius: 0 8px 8px 0;
+    }
 
+    section div.text {
+        margin: 2rem 3rem;
+    }
+    section div.text h1 {
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+    section div.text p {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}
 
 
 
