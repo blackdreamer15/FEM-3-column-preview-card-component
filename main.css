@@ -87,6 +87,7 @@ section button {
     font-size: 15px;
     cursor: pointer;
 }
+
 section#sedans > button {
     color: var(--prim-orange);
 }
@@ -96,6 +97,17 @@ section#suvs > button {
 section#luxury > button {
     color: var(--darker-cyan);
 }
+
+section > button:hover {
+    background: transparent;
+    border: 2px solid white;
+}
+section#sedans > button:hover,
+section#suvs > button:hover, 
+section#luxury > button:hover {
+    color: white;
+}
+
 
 footer.attribution {
     font-size: 15px;
